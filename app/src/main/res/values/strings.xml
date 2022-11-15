@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">SplitTheBill</string>
     <string name="name">Nome:</string>
+    <string name="name_hint">Digite o nome</string>
     <string name="paid_value">Valor Pago $:</string>
+    <string name="paid_value_hint">Digite o valor pago</string>
+    <string name="items">Items comprados:</string>
+    <string name="items_hint">Digite os items comprados</string>
 </resources>

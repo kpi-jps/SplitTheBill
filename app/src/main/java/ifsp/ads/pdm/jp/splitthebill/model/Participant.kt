@@ -6,6 +6,7 @@ import kotlinx.parcelize.Parcelize
 data class Participant(
     val id: Int,
     var name: String,
-    var valuePaid: Double,
+    var paidValue: Double,
+    var receiveOrPaid: Double,
     var items: String
 ) : Parcelable

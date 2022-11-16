@@ -14,7 +14,7 @@ class ParticipantAdapter (
     context : Context,
     private val participantList : MutableList<Participant>
         ) : ArrayAdapter<Participant>(context, R.layout.tile_app, participantList) {
-    private data class TileAppHolder(val nameTv: TextView, val paidValue: TextView)
+    private data class TileAppHolder(val nameTv: TextView, val valuePaidTv: TextView, val receiveOrPaidTv: TextView)
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val participant = participantList[position]
@@ -25,13 +25,14 @@ class ParticipantAdapter (
             val tileAppHolder = TileAppHolder(
                 participantTileView.findViewById(R.id.nameTv),
                 participantTileView.findViewById(R.id.paymentTv),
-
+                participantTileView.findViewById(R.id.receiveOrPaidTv)
                 )
             participantTileView.tag = tileAppHolder
         }
         with(participantTileView?.tag as TileAppHolder) {
             nameTv.text = participant.name
-            paidValue.text = participant.valuePaid.toString()
+            valuePaidTv.text = participant.valuePaid.toString()
+            receiveOrPaidTv.text = participant.receiveOrPaid.toString()
         }
         return participantTileView
     }

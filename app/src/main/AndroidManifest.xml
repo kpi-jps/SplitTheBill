@@ -16,7 +16,9 @@
         <activity
             android:name=".view.ParticipantActivity"
             android:exported="false">
-
+            <meta-data
+                android:name=""
+                android:value=""/>
         </activity>
         <activity
             android:name=".view.MainActivity"

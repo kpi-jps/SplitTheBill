@@ -3,11 +3,14 @@
     <string name="name">Nome:</string>
     <string name="name_hint">Digite o nome</string>
     <string name="paid_value">Valor Pago $:</string>
-    <string name="titleValue">Pagar ou receber:</string>
+    <string name="to_pay">Valor a pagar:</string>
+    <string name="to_receive">Valor a receber:</string>
     <string name="paid_value_hint">Digite o valor pago</string>
     <string name="items">Items comprados:</string>
     <string name="items_hint">Digite os items comprados</string>
     <string name="add_participant_menu_title">Adcionar participante</string>
-    <string name="calculate_menu_title">Adicionar participante</string>
+    <string name="remove_participant_menu_title">Remover participante</string>
+    <string name="edit_participant_menu_title">Editar participante</string>
+    <string name="calculate_menu_title">Calcular</string>
     <string name="save_button_title">SALVAR</string>
 </resources>

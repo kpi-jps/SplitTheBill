@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="ifsp.ads.pdm.jp.splitthebill">
@@ -16,9 +15,10 @@
         <activity
             android:name=".view.ParticipantActivity"
             android:exported="false">
-            <meta-data
-                android:name=""
-                android:value=""/>
+        </activity>
+        <activity
+            android:name=".view.SplitActivity"
+            android:exported="false">
         </activity>
         <activity
             android:name=".view.MainActivity"

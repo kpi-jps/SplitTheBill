@@ -4,9 +4,8 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Participant(
-    val id: Int,
+    var id: Int,
     var name: String,
     var paidValue: Double,
-    var receiveOrPaid: Double,
     var items: String
 ) : Parcelable
